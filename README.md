@@ -2,7 +2,7 @@
 
 [![Build status](https://ci.appveyor.com/api/projects/status/gga3m175h6xk4i7y/branch/main?svg=true)](https://ci.appveyor.com/project/berson969/ajs-inheritance/branch/main)
 
-
+[![Build status](https://ci.appveyor.com/api/projects/status/gga3m175h6xk4i7y?svg=true)](https://ci.appveyor.com/project/berson969/ajs-inheritance)
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
