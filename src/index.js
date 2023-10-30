@@ -6,3 +6,4 @@ import './js/characters/Undead';
 import './js/characters/Swordsman';
 import './js/orderByProps';
 // import './js/getAttackInfo'
+
