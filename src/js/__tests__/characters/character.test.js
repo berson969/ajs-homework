@@ -1,5 +1,5 @@
 import { beforeEach, expect, test } from '@jest/globals';
-import Character from '../Character';
+import Character from '../../characters/Character';
 
 let hero;
 

@@ -1,5 +1,5 @@
 import { expect, test } from '@jest/globals';
-import Undead from '../Undead';
+import Undead from '../../characters/Undead';
 
 test('open_Undead', () => {
   const hero = new Undead('newPerson', 'Undead');

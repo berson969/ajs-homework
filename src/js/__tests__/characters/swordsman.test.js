@@ -1,5 +1,5 @@
 import { expect, test } from '@jest/globals';
-import Swordsman from '../Swordsman';
+import Swordsman from '../../characters/Swordsman';
 
 test('open_Swordsman', () => {
   const hero = new Swordsman('newPerson');

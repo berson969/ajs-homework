@@ -20,7 +20,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    'max-classes-per-file': 'off',
     'no-plusplus': 'off',
   },
 };
