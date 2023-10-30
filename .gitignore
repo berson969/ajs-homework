@@ -242,7 +242,7 @@ fabric.properties
 ### WebStorm Patch ###
 # Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
 
-# *.iml
+*.iml
 # modules.xml
 # .idea/misc.xml
 # *.ipr
@@ -274,3 +274,9 @@ fabric.properties
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/webstorm,node,visualstudiocode
+
+.idea/.gitignore
+.idea/.name
+.idea/jsLibraryMappings.xml
+.idea/modules.xml
+.idea/vcs.xml
