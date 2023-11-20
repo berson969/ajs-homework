@@ -5,6 +5,7 @@ class Magician extends Character {
     super(name, 'Magician');
     this.attack = 10;
     this.defence = 40;
+    this.stoned = false;
   }
 }
 

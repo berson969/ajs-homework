@@ -11,6 +11,9 @@
     "coverage": "jest --coverage",
     "preshow:coverage": "npm run coverage"
   },
+  "jest": {
+    "collectCoverageFrom": ["src/**/*.{js,jsx}", "!**/node_modules/**"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/berson969/ajs-inheritance.git"

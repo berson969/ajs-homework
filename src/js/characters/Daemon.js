@@ -5,6 +5,7 @@ class Daemon extends Character {
     super(name, 'Daemon');
     this.attack = 10;
     this.defence = 40;
+    this.stoned = false;
   }
 }
 
