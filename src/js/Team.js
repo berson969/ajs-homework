@@ -11,14 +11,11 @@ export default class Team {
   }
 
   addAll(...characters) {
-    /* eslint-disable no-restricted-syntax */
-    for (const character of characters) {
-      if (this.members.has(character)) {
-        throw new Error('Character already exists in the team.');
+    characters.forEach((character) => {
+      if (!this.members.has(character)) {
+        this.members.add(character);
       }
-      this.members.add(character);
-    }
-    /* eslint-enable no-restricted-syntax */
+    });
   }
 
   toArray() {
