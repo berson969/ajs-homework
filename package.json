@@ -8,7 +8,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "test": "jest",
-    "coverage": "jest --coverage",
+    "coverage": "jest --coverage --testPathIgnorePatterns=src/js/__tests__/asyncHomework",
     "preshow:coverage": "npm run coverage"
   },
   "jest": {
